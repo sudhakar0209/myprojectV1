@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testing.org/testing-1.0.dtd">
+
+< suite name="myprojectV1">
+
+ 	<test name="BankingApp Test">
+
+ 		<parameter name="browser" value="firefox"/>
+ 		<classes>
+ 		<class name="com.myproject.testCases.TC_LoginTest_001"/>
+ 		</classes>
+ 		
+ 	</test>
+ 	
+</suite>
